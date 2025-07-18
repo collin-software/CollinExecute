@@ -12,10 +12,15 @@
     <NeutralLanguage>en</NeutralLanguage>
     <IncludeSymbols>False</IncludeSymbols>
     <Description>Shell Command Library.</Description>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\Collin Execute.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\License.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
