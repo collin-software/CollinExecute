@@ -4,6 +4,25 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Collin Execute</Title>
+    <Authors>Collin Software</Authors>
+    <PackageIcon>Collin Execute.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <NeutralLanguage>en</NeutralLanguage>
+    <IncludeSymbols>False</IncludeSymbols>
+    <Description>Shell Command Library.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Collin Execute.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
